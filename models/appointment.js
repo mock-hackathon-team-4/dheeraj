@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Joi = require("joi");
 
 const RegSchema = new mongoose.Schema({
-  age: { type: String, require: true },
+  newage: { type: String, require: true },
   date: { type: String, require: true },
   gender: { type: String, require: true },
   healthproblem: { type: String, require: true },
